@@ -23,3 +23,7 @@ Recently Harness has been the victim of several Crypto attacks that use our free
 To address these issues, you can do one of the following:
 Provide your own build infrastructure (like a VM with docker or a Kubernetes cluster). We have no limitations on building using your own infrastructure.
 Creating the Harness account with your work email and not a Gmail address will solve this problem.
+
+#### How do I share data between steps in a CI stage?
+
+You could utilize Shared Paths to enable steps in a stage to communicate and share state information. You can specify custom paths for data sharing or cache purposes.
